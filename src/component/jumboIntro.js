@@ -20,7 +20,7 @@ const JumboIntro = () => {
           desbloqueará o terceiro desafio.
           <br /> - A segunda etapa, novamente deverá ser resolvida pela Clara sem ajuda.
           O terceiro desafio: Esse será resolvido pela Clara{" "}
-          <strong>sem ajuda de ninguem</strong>
+          <strong>sem ajuda</strong>
           <br />
           <strong>Terceiro desafio:</strong>
           <br />
