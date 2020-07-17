@@ -3,7 +3,7 @@ import React from "react";
 const IntroPrimeiro2 = () => (
   <div className="mb-3">
     <div className="text-center mt-5">
-      <h2>Muito bem dona Clara, agora é a sua vez!!</h2>
+      <h2>Muito bem Clara, agora é a sua vez!!</h2>
     </div>
     <p>
       Bom, do mesmo jeito que não foi facil para sua mãe, também não será tão
