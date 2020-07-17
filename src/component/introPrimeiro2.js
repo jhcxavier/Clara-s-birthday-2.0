@@ -24,7 +24,7 @@ const IntroPrimeiro2 = () => (
     </p>
     <br />
     <h4>
-      One, dois, tres e <strong>Já!!!</strong>
+      Uno, dois, three <strong>Já!!!</strong>
     </h4>
   </div>
 );
