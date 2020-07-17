@@ -19,17 +19,17 @@ const Primeiro = () => {
         <h1>Primeiro Desafio</h1>
       </div>
       <p>
-        <strong>Para a Mamae da Clara</strong>
+        <strong>Para a Mamãe da Clara</strong>
       </p>
       <p className="">
-        Na primeira etapa a mamae da Clara deve descobrir a mensagem escondida
-        na sequencia de numeros. Uma vez que descoberta a mensagem, a Clara
-        podera realizar a segunda etapa da primeira fase!
+        Na primeira etapa a mamãe deverá descobrir a mensagem escondida
+        na sequência de números. Uma vez que descoberta a mensagem, a Clara
+        poderá realizar a segunda etapa da primeira fase!
       </p>
       <p>
         Dica!!
         <br />
-        Para desvendar esse misterio a mamae devera pesquisar{" "}
+        Para desvendar esse mistério a mamãe deverá pesquisar{" "}
         <strong>ASCII</strong>.
       </p>
       <div className="text-center mt-5">
@@ -57,12 +57,12 @@ const Primeiro = () => {
           <div>
             <img src={acertou} />
             <h3>
-              Parabens mamae vc concliu a primeira etapa, agora e a vez da
+              Parabéns mamãe vc concliu a primeira etapa, agora é a vez da
               Clara!!
             </h3>
 
             <p className="mt-3">
-              <strong>Agora e a vez da Clara</strong>
+              <strong>Agora é a vez da Clara</strong>
             </p>
             <Link to="/primeiro2">
               <button type="button" className="btn btn-primary btn-sm mt-2">
@@ -74,7 +74,7 @@ const Primeiro = () => {
         {wrong && (
           <div>
             {" "}
-            <h4 className="mt-2">Que isso Mariana? Ta de brincadeira neh?!</h4>
+            <h4 className="mt-2">Que isso Mariana? Tá de brincadeira neh?!</h4>
             <Wrong />{" "}
           </div>
         )}
