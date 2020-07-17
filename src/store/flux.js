@@ -10,8 +10,8 @@ const getState = ({ getStore, getActions, setStore }) => {
           title: "Primeiro desafio",
           image: Clara1,
           message:
-            "Para completar esta etapa a Clara devera receber ajuda da mamae.",
-          password: "teste",
+            "Mariana, a senha desse desafio, você sabe.",
+          password: "você sabe",
           next: "primeiro",
         },
         {
