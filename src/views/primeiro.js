@@ -41,7 +41,7 @@ const Primeiro = () => {
           type="button"
           className="btn btn-primary btn-sm mt-2"
           onClick={() => {
-            if (value == answer) {
+            if (value === answer) {
               setShowAnswer(!showAnswer);
               setWrong(false);
               setButton(!button);

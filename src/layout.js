@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from "./App";
 // import Challenges from "./views/challenges";
 import Primeiro from "./views/primeiro";
-// import Primeiro2 from "./views/primeiro2";
+import Primeiro2 from "./views/primeiro2";
 // import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
@@ -32,9 +32,9 @@ const Layout = () => {
           <Route exact path="/primeiro">
             <Primeiro />
           </Route>
-          {/* <Route exact path="/primeiro2">
+          <Route exact path="/primeiro2">
             <Primeiro2 />
-          </Route>  */}
+          </Route>
           <Route>
             <h1>Not found!</h1>
           </Route>

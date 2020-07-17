@@ -7,7 +7,7 @@ const Presentes = (props) => {
   const { store } = useContext(Context);
   const [password, setPassword] = useState("");
   const [validation, setValidation] = useState(false);
-  let next = "";
+  //   let next = "";
 
   return (
     <div className="card-group justify-content-around">
@@ -41,7 +41,7 @@ const Presentes = (props) => {
                   onClick={() => {
                     console.log("props", props);
                     console.log("history", props.history);
-                    if (password == "test") {
+                    if (password === "test") {
                       props.history.push("/primeiro");
                       // props.history.push("/");
                     } else {
