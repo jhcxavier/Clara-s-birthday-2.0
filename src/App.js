@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import JumboIntro from "./component/jumboIntro";
+import Presentes from "./component/presentes";
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="text-center mt-5">
+        <h1>Bem Vindo ao Desafio da Clara!</h1>
+        <br />
+        <JumboIntro />
+        <h3 />
+
+        <Presentes history={props.history} />
+
+        <h3 className="mt-5">
+          Boa sorte!! <i className="fas fa-gift" />
+        </h3>
+      </div>
     </div>
   );
 }
