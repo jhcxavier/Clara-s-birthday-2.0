@@ -146,9 +146,10 @@ const Primeiro2 = () => {
               number["12"] - number["11"] !== result.result6 &&
               number["14"] - number["13"] !== result.result7 &&
               number["16"] - number["15"] !== result.result8 ? (
-              <Failed />
-            ) : (
-              <Completed />
+                <Completed />
+                ) : (
+                  <Failed />
+              
             )
           );
         }}
