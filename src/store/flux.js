@@ -10,7 +10,7 @@ const getState = ({ getStore, getActions, setStore }) => {
           title: "Primeiro desafio",
           image: Clara1,
           message:
-            "Mariana, a senha desse desafio, você sabe.",
+            "Senha = você sabe",
           password: "você sabe",
           next: "primeiro",
         },

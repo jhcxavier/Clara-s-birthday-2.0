@@ -148,7 +148,7 @@ const Primeiro2 = () => {
               number["16"] - number["15"] !== result.result8 ? (
                 <Completed />
                 ) : (
-                  <Failed />
+                  <Failed /> 
               
             )
           );
