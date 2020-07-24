@@ -6,6 +6,8 @@ import App from "./App";
 // import Challenges from "./views/challenges";
 import Primeiro from "./views/primeiro";
 import Primeiro2 from "./views/primeiro2";
+import Segundo from "./views/segundo";
+import Segundo2 from "./views/segundo2";
 // import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
@@ -34,6 +36,12 @@ const Layout = () => {
           </Route>
           <Route exact path="/primeiro2">
             <Primeiro2 />
+          </Route>
+          <Route exact path="/segundo">
+            <Segundo />
+          </Route>
+          <Route exact path="/segundo2">
+            <Segundo2 />
           </Route>
           <Route>
             <h1>Not found!</h1>

@@ -9,25 +9,24 @@ const getState = ({ getStore, getActions, setStore }) => {
         {
           title: "Primeiro desafio",
           image: Clara1,
-          message:
-            "Senha = você sabe",
+          message: "Senha = você sabe",
           password: "você sabe",
-          next: "primeiro",
+          next: "/primeiro",
         },
         {
           title: "Segundo Desafio",
           image: Clara2,
           message:
             "Para completar esta etapa a Clara devera receber ajuda do papai.",
-          password: "white",
-          next: "segundo",
+          password: "Aniversariante*!",
+          next: "/segundo",
         },
         {
           title: "Terceiro Desafio",
           image: Clara3,
           message: "Este a Clara devera resolver sozinha!",
           password: "white",
-          next: "terceiro",
+          next: "/terceiro",
         },
       ],
     },

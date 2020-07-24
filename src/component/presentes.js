@@ -41,7 +41,7 @@ const Presentes = (props) => {
                   onClick={() => {
                     console.log("props", props);
                     console.log("history", props.history);
-                    if (password === "você sabe") {
+                    if (password === e.password) {
                       props.history.push("/primeiro");
                       // props.history.push("/");
                     } else {
