@@ -138,14 +138,14 @@ const Segundo2 = () => {
         className="btn btn-outline-primary btn-sm mt-5"
         onClick={() => {
           setValidation(
-            result.result1 + number["1"] !== number["2"] &&
-              result.result2 + number["3"] !== number["4"] &&
-              result.result3 + number["5"] !== number["6"] &&
-              result.result4 + number["7"] !== number["8"] &&
-              result.result5 + number["9"] !== number["10"] &&
-              result.result6 + number["11"] !== number["12"] &&
-              result.result7 + number["13"] !== number["14"] &&
-              result.result8 + number["15"] !== number["16"] ? (
+            +result.result1 + +number["1"] === number["2"] &&
+              +result.result2 + +number["3"] === number["4"] &&
+              +result.result3 + +number["5"] === number["6"] &&
+              +result.result4 + +number["7"] === number["8"] &&
+              +result.result5 + +number["9"] === number["10"] &&
+              +result.result6 + +number["11"] === number["12"] &&
+              +result.result7 + +number["13"] === number["14"] &&
+              +result.result8 + +number["15"] === number["16"] ? (
               <Completed />
             ) : (
               <Failed />
