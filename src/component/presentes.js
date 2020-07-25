@@ -41,8 +41,9 @@ const Presentes = (props) => {
                   onClick={() => {
                     console.log("props", props);
                     console.log("history", props.history);
+                    console.log("password", e.next);
                     if (password === e.password) {
-                      props.history.push("/primeiro");
+                      props.history.push(e.next);
                       // props.history.push("/");
                     } else {
                       setValidation(!validation);
