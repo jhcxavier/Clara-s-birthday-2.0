@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import IntroPrimeiro2 from "../component/introPrimeiro2";
 import Completed from "../component/completedChallenge";
-import Failed from "../component/wrong";
+import Wrong from "../component/wrong";
 
 const Primeiro2 = () => {
   const [result, setResult] = useState({
@@ -14,7 +14,7 @@ const Primeiro2 = () => {
     result7: "",
     result8: "",
   });
-  const [validation, setValidation] = useState("");
+  const [validation, setValidation] = useState();
   const [number, setNumber] = useState({
     "1": generateNumber(),
     "2": generateNumber() + 20,
@@ -137,18 +137,20 @@ const Primeiro2 = () => {
         type="button"
         className="btn btn-outline-primary btn-sm mt-5"
         onClick={() => {
+          console.log(+number["16"] - +number["15"]);
           setValidation(
-            number["2"] - number["1"] !== result.result1 &&
-              number["4"] - number["3"] !== result.result2 &&
-              number["6"] - number["5"] !== result.result3 &&
-              number["8"] - number["7"] !== result.result4 &&
-              number["10"] - number["9"] !== result.result5 &&
-              number["12"] - number["11"] !== result.result6 &&
-              number["14"] - number["13"] !== result.result7 &&
-              number["16"] - number["15"] !== result.result8 ? (
-              <Completed />
+            // console.log(+number["16"] - +number["15"]),
+            // +number["2"] - +number["1"] !== result.result1 &&
+            //   +number["4"] - +number["3"] !== result.result2 &&
+            //   +number["6"] - +number["5"] !== result.result3 &&
+            //   +number["8"] - +number["7"] !== result.result4 &&
+            //   +number["10"] - +number["9"] !== result.result5 &&
+            //   +number["12"] - +number["11"] !== result.result6 &&
+            //   +number["14"] - +number["13"] !== result.result7 &&
+            +number["16"] - +number["15"] !== result.result8 ? (
+              <Wrong />
             ) : (
-              <Failed />
+              <Completed />
             )
           );
         }}

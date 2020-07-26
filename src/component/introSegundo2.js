@@ -17,7 +17,8 @@ const IntroSegundo2 = () => (
       número que subtraido de 5 da o resultado 3.
     </p>
     <p>
-      E isso seria 5 - <strong>2</strong> = 3, nesse caso a resposta ser.
+      E isso seria 5 - <strong>2</strong> = 3, nesse caso a resposta seria{" "}
+      <strong>2</strong>.
     </p>
     <br />
     <h4>
