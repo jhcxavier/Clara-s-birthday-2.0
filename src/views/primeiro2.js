@@ -138,40 +138,20 @@ const Primeiro2 = () => {
         type="button"
         className="btn btn-outline-primary btn-sm mt-5"
         onClick={() => {
-          // console.log();
-          // console.log(+number["16"] - +number["15"] === +result.result8);
-          // console.log(typeof result.result8);
-          if (
+          setValidation(
             +number["2"] - +number["1"] === +result.result1 &&
-            +number["4"] - +number["3"] === +result.result2 &&
-            +number["6"] - +number["5"] === +result.result3 &&
-            +number["8"] - +number["7"] === +result.result4 &&
-            +number["10"] - +number["9"] === +result.result5 &&
-            +number["12"] - +number["11"] === +result.result6 &&
-            +number["14"] - +number["13"] === +result.result7 &&
-            +number["16"] - +number["15"] === +result.result8
-          ) {
-            setValidation(<Completed />);
-          } else {
-            setValidation(<Wrong />);
-          }
-          // console.log(+number["14"] - +number["13"] !== +result.result7);
-          // console.log(+number["16"] - +number["15"] !== +result.result8);
-          // setValidation(
-          // console.log(+number["16"] - +number["15"]),
-          // +number["2"] - +number["1"] !== +result.result1 &&
-          //   +number["4"] - +number["3"] !== +result.result2 &&
-          //   +number["6"] - +number["5"] !== +result.result3 &&
-          //   +number["8"] - +number["7"] !== +result.result4 &&
-          //   +number["10"] - +number["9"] !== +result.result5 &&
-          //   +number["12"] - +number["11"] !== +result.result6 &&
-          //   +number["14"] - +number["13"] !== +result.result7 &&
-          //     +number["16"] - +number["15"] !== +result.result8 ? (
-          //     <Wrong />
-          //   ) : (
-          //     <Completed />
-          //   )
-          // );
+              +number["4"] - +number["3"] === +result.result2 &&
+              +number["6"] - +number["5"] === +result.result3 &&
+              +number["8"] - +number["7"] === +result.result4 &&
+              +number["10"] - +number["9"] === +result.result5 &&
+              +number["12"] - +number["11"] === +result.result6 &&
+              +number["14"] - +number["13"] === +result.result7 &&
+              +number["16"] - +number["15"] === +result.result8 ? (
+              <Completed />
+            ) : (
+              <Wrong />
+            )
+          );
         }}
       >
         Conferir
