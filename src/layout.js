@@ -8,6 +8,7 @@ import Primeiro from "./views/primeiro";
 import Primeiro2 from "./views/primeiro2";
 import Segundo from "./views/segundo";
 import Segundo2 from "./views/segundo2";
+import Terceiro from "./views/terceiro"
 // import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
@@ -42,6 +43,9 @@ const Layout = () => {
           </Route>
           <Route exact path="/segundo2">
             <Segundo2 />
+          </Route>
+          <Route exact path="/terceiro">
+            <Terceiro />
           </Route>
           <Route>
             <h1>Not found!</h1>
