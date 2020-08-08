@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import IntroSegundo2 from "../component/introSegundo2";
 import Completed from "../component/completedChallenge";
 import Failed from "../component/wrong";
+import Ganhou from "../component/ganhou"
 
 const SegundoDesafio = () => {
     const [result, setResult] = useState({
@@ -145,7 +146,7 @@ const SegundoDesafio = () => {
                             +result.result6 + +number["11"] === number["12"] &&
                             +result.result7 + +number["13"] === number["14"] &&
                             +result.result8 + +number["15"] === number["16"] ? (
-                                <Completed />
+                                <Ganhou />
                             ) : (
                                 <Failed />
                             )

@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import Imagem from "../img/presente2.gif";
 
 const Ganhou = () => (
     <div className="text-center mt-4">
@@ -8,3 +9,4 @@ const Ganhou = () => (
       </h3>
     </div>
 )
+export default Ganhou;
