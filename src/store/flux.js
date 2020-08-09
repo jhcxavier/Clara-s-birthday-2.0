@@ -25,7 +25,7 @@ const getState = ({ getStore, getActions, setStore }) => {
           title: "Terceiro Desafio",
           image: Clara3,
           message: "Vinte cinco tira quanto fica?",
-          password: "vinte",
+          password: "quinze",
           next: "/terceiro",
         },
       ],
